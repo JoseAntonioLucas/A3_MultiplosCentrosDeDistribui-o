@@ -115,7 +115,7 @@ quantidade_caminhoes_por_centro = {
 }
 
 grafo = nx.Graph()
-
+#
 # Conecta centros
 for i in range(len(centros)):
     for j in range(i + 1, len(centros)):
